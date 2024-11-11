@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV Bar */
+.header {
+    height: 70px;
+    background-color: #4B3C31; /* Coffee Brown */
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_block {
+    height: 60px;
+    width: 400px;
+    background-color: #6E4B3E; /* Lighter Brown */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.header_block a {
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.header_block a:hover {
+    font-size: 20px;
+    color: #E0D3B5; /* Light Cream */
+}
+
+.header_end {
+    height: 60px;
+    width: 100px;
+    background-color: #6E4B3E; /* Lighter Brown */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.header_end a {
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.3s ease-in-out;
+}
+
+.header_end a:hover {
+    font-size: 20px;
+    color: #E0D3B5; /* Light Cream */
+}
+
+/* Main About */
+.main {
+    height: 650px;
+    background-color: #3E2A2A; /* Dark Coffee */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content {
+    height: 500px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #F4E1C1; /* Light Coffee */
+    border-radius: 20px;
+}
+
+.main_about {
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.main_about h2 {
+    font-size: 40px;
+    color: #4B3C31; /* Coffee Brown */
+    font-weight: bold;
+    text-decoration: underline;
+    transition: transform 0.2s ease-in-out;
+}
+
+.main_about h2:hover {
+    transform: scale(1.07);
+    color: #6E4B3E; /* Lighter Brown */
+}
+
+.main_about ul {
+    font-size: 21px;
+    color: #6E4B3E; /* Lighter Brown */
+    font-weight: bold;
+}
+
+.main_about p {
+    font-size: 22px;
+    color: #4B3C31; /* Coffee Brown */
+    font-weight: bold;
+    margin-top: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.main_about p:hover {
+    transform: scale(1.07);
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #6E4B3E; /* Lighter Brown */
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+/* Skill-Section */
+.skills {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #F4E1C1; /* Light Coffee */
+    border-radius: 10px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #4B3C31; /* Coffee Brown */
+    margin-bottom: 20px;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill-item {
+    background-color: #FFF1E0; /* Creamy Beige */
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #4B3C31; /* Coffee Brown */
+}
+
+.skill-item p {
+    font-size: 1em;
+    color: #6E4B3E; /* Lighter Brown */
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+    background-color: #F0E1D1; /* Light Beige */
+}
+
+/* Footer */
+.footer {
+    background-color: #4B3C31; /* Coffee Brown */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #E0D3B5; /* Light Cream */
+}
